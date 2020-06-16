@@ -4,7 +4,7 @@ import com.samplespace.hellodrlworld.PaymentOffers;
 
 rule "Offer for ApplePay"
 	when
-		offer: PaymentOffer(channel == "ApplePay")
+		offer: PaymentOffers(channel == "ApplePay")
 	then
 		offer.setDiscount(15);
 	end
@@ -12,7 +12,7 @@ rule "Offer for ApplePay"
 	
 rule "Offer for SamsungPay"
 	when
-		offer: PaymentOffer(channel == "SamsungPay")
+		offer: PaymentOffers(channel == "SamsungPay")
 	then
 		offer.setDiscount(20);
 	end
@@ -20,7 +20,7 @@ rule "Offer for SamsungPay"
 	
 rule "Offer for GooglePay"
 	when
-		offer: PaymentOffer(channel == "GooglePay")
+		offer: PaymentOffers(channel == "GooglePay")
 	then
 		offer.setDiscount(25);
 	end
