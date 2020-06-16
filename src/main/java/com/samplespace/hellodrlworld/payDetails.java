@@ -8,10 +8,10 @@ public class payDetails implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label(value = "channel")
+	@org.kie.api.definition.type.Label("channel")
 	private java.lang.String channel;
-	@org.kie.api.definition.type.Label(value = "discount")
-	private java.lang.Integer discount;
+	@org.kie.api.definition.type.Label("discount")
+	private int discount;
 
 	public payDetails() {
 	}
@@ -24,15 +24,15 @@ public class payDetails implements java.io.Serializable {
 		this.channel = channel;
 	}
 
-	public java.lang.Integer getDiscount() {
+	public int getDiscount() {
 		return this.discount;
 	}
 
-	public void setDiscount(java.lang.Integer discount) {
+	public void setDiscount(int discount) {
 		this.discount = discount;
 	}
 
-	public payDetails(java.lang.String channel, java.lang.Integer discount) {
+	public payDetails(java.lang.String channel, int discount) {
 		this.channel = channel;
 		this.discount = discount;
 	}
