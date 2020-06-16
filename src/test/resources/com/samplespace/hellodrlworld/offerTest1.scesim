@@ -53,7 +53,7 @@
           <factAlias>PaymentOffers</factAlias>
           <expressionAlias>channel</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>322.0</columnWidth>
+          <columnWidth>548.0</columnWidth>
         </FactMapping>
         <FactMapping>
           <expressionElements>
@@ -76,7 +76,7 @@
           <factAlias>PaymentOffers</factAlias>
           <expressionAlias>discount</expressionAlias>
           <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>322.0</columnWidth>
+          <columnWidth>548.0</columnWidth>
         </FactMapping>
       </factMappings>
     </scesimModelDescriptor>
@@ -92,6 +92,7 @@
               <name>Description</name>
               <type>OTHER</type>
             </expressionIdentifier>
+            <rawValue class="string">hello2DRLworld</rawValue>
           </FactMappingValue>
           <FactMappingValue>
             <factIdentifier>
