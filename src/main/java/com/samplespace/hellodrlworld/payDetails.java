@@ -8,9 +8,7 @@ public class payDetails implements java.io.Serializable {
 
 	static final long serialVersionUID = 1L;
 
-	@org.kie.api.definition.type.Label("channel")
 	private java.lang.String channel;
-	@org.kie.api.definition.type.Label("discount")
 	private int discount;
 
 	public payDetails() {
