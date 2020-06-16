@@ -5,6 +5,7 @@ package com.samplespace.hellodrlworld;
 import com.samplespace.hellodrlworld.PaymentOffers;
 
 rule "Offer for ApplePay"
+ruleflow-group "hello2DRLworld"
 	when
 		offer: PaymentOffers(channel == "ApplePay")
 	then
@@ -13,6 +14,7 @@ rule "Offer for ApplePay"
 	
 	
 rule "Offer for SamsungPay"
+ruleflow-group "hello2DRLworld"
 	when
 		offer: PaymentOffers(channel == "SamsungPay")
 	then
@@ -21,6 +23,7 @@ rule "Offer for SamsungPay"
 
 	
 rule "Offer for GooglePay"
+ruleflow-group "hello2DRLworld"
 	when
 		offer: PaymentOffers(channel == "GooglePay")
 	then
