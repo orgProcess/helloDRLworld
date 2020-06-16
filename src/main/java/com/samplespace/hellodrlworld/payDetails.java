@@ -6,12 +6,35 @@ package com.samplespace.hellodrlworld;
 
 public class payDetails implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public payDetails() {
-    }
+	@org.kie.api.definition.type.Label(value = "channel")
+	private java.lang.String channel;
+	@org.kie.api.definition.type.Label(value = "discount")
+	private java.lang.Integer discount;
 
+	public payDetails() {
+	}
 
+	public java.lang.String getChannel() {
+		return this.channel;
+	}
 
+	public void setChannel(java.lang.String channel) {
+		this.channel = channel;
+	}
+
+	public java.lang.Integer getDiscount() {
+		return this.discount;
+	}
+
+	public void setDiscount(java.lang.Integer discount) {
+		this.discount = discount;
+	}
+
+	public payDetails(java.lang.String channel, java.lang.Integer discount) {
+		this.channel = channel;
+		this.discount = discount;
+	}
 
 }
