@@ -16,7 +16,7 @@ rule "Offer for SamsungPay"
 	then
 		offer.setDiscount(20);
 	end
-	
+
 	
 rule "Offer for GooglePay"
 	when
