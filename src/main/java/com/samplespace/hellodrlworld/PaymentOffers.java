@@ -6,7 +6,7 @@ package com.samplespace.hellodrlworld;
 
 public class PaymentOffers implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+    //static final long serialVersionUID = 1L;
 
 	private String channel;
 	private int discount;
@@ -25,8 +25,8 @@ public class PaymentOffers implements java.io.Serializable {
 		this.discount = discount;
 	}
 
-    public PaymentOffers() {
-    }
+    //public PaymentOffers() {
+    //}
 
 
 
