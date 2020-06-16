@@ -14,7 +14,7 @@ rule "Offer for SamsungPay"
 	when
 		offer: PaymentOffer(channel == "SamsungPay")
 	then
-		offer.setDiscount(15);
+		offer.setDiscount(20);
 	end
 	
 	
@@ -22,6 +22,6 @@ rule "Offer for GooglePay"
 	when
 		offer: PaymentOffer(channel == "GooglePay")
 	then
-		offer.setDiscount(15);
+		offer.setDiscount(25);
 	end
 
