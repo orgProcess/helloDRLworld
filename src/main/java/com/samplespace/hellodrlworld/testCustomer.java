@@ -11,7 +11,7 @@ public class testCustomer implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Cust")
 	private String cust;
 
-	@org.kie.api.definition.type.Label(value = "Name")
+	@org.kie.api.definition.type.Label("Name1")
 	private com.samplespace.hellopojoworld.Customer custName;
 
 	public testCustomer() {
