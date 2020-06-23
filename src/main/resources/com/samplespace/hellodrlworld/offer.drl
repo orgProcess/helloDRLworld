@@ -1,7 +1,7 @@
 package com.samplespace.hellodrlworld;
 
 import com.samplespace.hellodrlworld.PaymentOffers;
-import com.samplespace.hellopojoworld01.Customer01;
+
 
 
 rule "Offer for ApplePay"
