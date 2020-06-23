@@ -2,7 +2,6 @@ package com.samplespace.hellodrlworld;
 
 import com.samplespace.hellodrlworld.PaymentOffers;
 
-
 rule "Offer for ApplePay"
     ruleflow-group "hello2DRLworld"
 	when
