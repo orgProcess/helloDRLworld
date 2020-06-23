@@ -89,7 +89,7 @@
     </dependency>
     <dependency>
       <groupId>com.samplespace</groupId>
-      <artifactId>hello2PojoWorld</artifactId>
+      <artifactId>hellopojoworld01</artifactId>
       <version>1.0.0</version>
       <scope>compile</scope>
     </dependency>
