@@ -12,7 +12,7 @@ rule "Offer for ApplePay"
 	then
 		
 		offer.setDiscount(15);
-        cust.setcustName("JD");
+        cust.setCustName("JD");
 	end
 	
 	
