@@ -1,6 +1,6 @@
 package com.samplespace.hellodrlworld;
 
-import com.samplespace.hellopojoworld.Customer;
+
 
 public class testCustomer implements java.io.Serializable {
 
