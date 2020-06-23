@@ -87,6 +87,12 @@
       <version>7.33.0.Final-redhat-00002</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <groupId>com.samplespace</groupId>
+      <artifactId>hello2PojoWorld</artifactId>
+      <version>1.0.0</version>
+      <scope>compile</scope>
+    </dependency>
   </dependencies>
   <build>
     <plugins>
