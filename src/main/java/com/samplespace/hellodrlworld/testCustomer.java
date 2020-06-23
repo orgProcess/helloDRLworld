@@ -11,8 +11,8 @@ public class testCustomer implements java.io.Serializable {
 	@org.kie.api.definition.type.Label("Cust")
 	private String cust;
 
-	@org.kie.api.definition.type.Label(value = "Customer")
-	private com.samplespace.hellopojoworld.Customer customer;
+	@org.kie.api.definition.type.Label(value = "Name")
+	private com.samplespace.hellopojoworld.Customer custName;
 
 	public testCustomer() {
 	}
@@ -25,18 +25,18 @@ public class testCustomer implements java.io.Serializable {
 		this.cust = cust;
 	}
 
-	public com.samplespace.hellopojoworld.Customer getCustomer() {
-		return this.customer;
+	public com.samplespace.hellopojoworld.Customer getCustName() {
+		return this.custName;
 	}
 
-	public void setCustomer(com.samplespace.hellopojoworld.Customer customer) {
-		this.customer = customer;
+	public void setCustName(com.samplespace.hellopojoworld.Customer custName) {
+		this.custName = custName;
 	}
 
 	public testCustomer(java.lang.String cust,
-			com.samplespace.hellopojoworld.Customer customer) {
+			com.samplespace.hellopojoworld.Customer custName) {
 		this.cust = cust;
-		this.customer = customer;
+		this.custName = custName;
 	}
 
 }
