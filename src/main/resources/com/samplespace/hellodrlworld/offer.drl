@@ -8,7 +8,9 @@ rule "Offer for ApplePay"
 	when
 		offer: PaymentOffers(channel == "ApplePay")
 	then
+		cust: customer()
 		offer.setDiscount(15);
+		cust.setCustName("JD");
 	end
 	
 	
