@@ -11,7 +11,7 @@ rule "Offer for ApplePay"
 	then
 		cust: Customer01();
 		offer.setDiscount(15);
-        cust.setcustName("JD")
+        cust.setcustName("JD");
 	end
 	
 	
