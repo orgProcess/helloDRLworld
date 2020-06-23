@@ -1,7 +1,7 @@
 package com.samplespace.hellodrlworld;
 
 import com.samplespace.hellodrlworld.PaymentOffers;
-import com.samplespace.hellopojoworld01.Customer01;
+
 
 
 rule "Offer for ApplePay"
@@ -9,9 +9,7 @@ rule "Offer for ApplePay"
 	when
 		offer: PaymentOffers(channel == "ApplePay")
 	then
-		cust: Customer01();
 		offer.setDiscount(15);
-        cust.setcustName("JD")
 	end
 	
 	
