@@ -9,20 +9,20 @@ public class testCustomer implements java.io.Serializable {
 	static final long serialVersionUID = 1L;
 
 	@org.kie.api.definition.type.Label("Cust")
-	private com.samplespace.hellopojoworld.Customer cust;
+	private String cust;
 
 	public testCustomer() {
 	}
 
-	public com.samplespace.hellopojoworld.Customer getCust() {
+	public java.lang.String getCust() {
 		return this.cust;
 	}
 
-	public void setCust(com.samplespace.hellopojoworld.Customer cust) {
+	public void setCust(java.lang.String cust) {
 		this.cust = cust;
 	}
 
-	public testCustomer(com.samplespace.hellopojoworld.Customer cust) {
+	public testCustomer(java.lang.String cust) {
 		this.cust = cust;
 	}
 
