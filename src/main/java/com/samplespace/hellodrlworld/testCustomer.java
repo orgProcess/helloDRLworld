@@ -6,12 +6,23 @@ package com.samplespace.hellodrlworld;
 
 public class testCustomer implements java.io.Serializable {
 
-    static final long serialVersionUID = 1L;
+	static final long serialVersionUID = 1L;
 
-    public testCustomer() {
-    }
+	private com.samplespace.hellopojoworld.Customer cust;
 
+	public testCustomer() {
+	}
 
+	public com.samplespace.hellopojoworld.Customer getCust() {
+		return this.cust;
+	}
 
+	public void setCust(com.samplespace.hellopojoworld.Customer cust) {
+		this.cust = cust;
+	}
+
+	public testCustomer(com.samplespace.hellopojoworld.Customer cust) {
+		this.cust = cust;
+	}
 
 }
