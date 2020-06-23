@@ -10,7 +10,6 @@ rule "Offer for ApplePay"
 		offer: PaymentOffers(channel == "ApplePay")
 		cust: Customer01()
 	then
-		
 		offer.setDiscount(15);
         cust.setCustName("JD");
 	end
