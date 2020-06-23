@@ -8,8 +8,6 @@ public class testCustomer implements java.io.Serializable {
 
 	private String cust;
 
-	@org.kie.api.definition.type.Label("cn")
-	private com.samplespace.hellopojoworld.Customer custName;
 
 	public testCustomer() {
 	}
@@ -22,18 +20,9 @@ public class testCustomer implements java.io.Serializable {
 		this.cust = cust;
 	}
 
-	public com.samplespace.hellopojoworld.Customer getCustName() {
-		return this.custName;
-	}
 
-	public void setCustName(com.samplespace.hellopojoworld.Customer custName) {
-		this.custName = custName;
-	}
-
-	public testCustomer(java.lang.String cust,
-			com.samplespace.hellopojoworld.Customer custName) {
+	public testCustomer(java.lang.String cust) {
 		this.cust = cust;
-		this.custName = custName;
 	}
 
 }
