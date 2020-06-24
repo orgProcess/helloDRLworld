@@ -269,6 +269,10 @@
     <stateless>false</stateless>
   </settings>
   <imports>
-    <imports/>
+    <imports>
+      <Import>
+        <type>com.samplespace.hellopojoworld01.Customer01</type>
+      </Import>
+    </imports>
   </imports>
 </ScenarioSimulationModel>
