@@ -56,22 +56,6 @@
           <columnWidth>354.50864197530865</columnWidth>
         </FactMapping>
         <FactMapping>
-          <expressionElements/>
-          <expressionIdentifier>
-            <name>1593022474169</name>
-            <type>EXPECT</type>
-          </expressionIdentifier>
-          <factIdentifier>
-            <name>Empty</name>
-            <className>java.lang.Void</className>
-          </factIdentifier>
-          <className>java.lang.Void</className>
-          <factAlias>INSTANCE 4</factAlias>
-          <expressionAlias>PROPERTY 4</expressionAlias>
-          <factMappingValueType>NOT_EXPRESSION</factMappingValueType>
-          <columnWidth>322.0</columnWidth>
-        </FactMapping>
-        <FactMapping>
           <expressionElements>
             <ExpressionElement>
               <step>PaymentOffers</step>
@@ -142,16 +126,6 @@
             </expressionIdentifier>
             <rawValue class="string">15</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1593022474169</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -199,16 +173,6 @@
             </expressionIdentifier>
             <rawValue class="string">2</rawValue>
           </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1593022474169</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
-          </FactMappingValue>
         </factMappingValues>
       </Scenario>
       <Scenario>
@@ -255,16 +219,6 @@
               <type>OTHER</type>
             </expressionIdentifier>
             <rawValue class="string">3</rawValue>
-          </FactMappingValue>
-          <FactMappingValue>
-            <factIdentifier>
-              <name>Empty</name>
-              <className>java.lang.Void</className>
-            </factIdentifier>
-            <expressionIdentifier>
-              <name>1593022474169</name>
-              <type>EXPECT</type>
-            </expressionIdentifier>
           </FactMappingValue>
         </factMappingValues>
       </Scenario>
