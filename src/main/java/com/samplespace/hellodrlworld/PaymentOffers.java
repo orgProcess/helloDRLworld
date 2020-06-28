@@ -25,8 +25,8 @@ public class PaymentOffers implements java.io.Serializable {
 		this.discount = discount;
 	}
 
-    //public PaymentOffers() {
-    //}
+    public PaymentOffers() {
+    }
 
 
 
